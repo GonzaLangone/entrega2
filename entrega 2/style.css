@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    background-color: rgb(163, 200, 232);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header a{
+    text-decoration: none;
+    color: #000;
+}
+header a:hover{
+    cursor: pointer;
+}
+header img{
+    width: 10%;
+    border-radius: 15px;
+}
+
+.pedidos {
+    display: flex;
+}
+.entregados{
+    display: flex;
+}
+.cancelados{
+    display: flex;
+}
+.id-seccion{
+    display: flex;
+}
+.botones{
+    display: flex;
+}
+.boton-entregado{
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    background-color: aquamarine;
+}
+.boton-eliminar{
+    width: 100px;
+    margin: 1%;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(220, 116, 116);
+}
+.card-pedidos{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width:  250px;
+    height: 150px;
+}
+.card-pedidos-entregados{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width:  250px;
+    height: 150px;
+    background-color: rgb(105, 165, 105);
+    width: 250px;
+}
+.card-pedidos-cancelados{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width:  250px;
+    height: 150px;
+    background-color: rgb(220, 116, 116);
+    width: 250px;
+}
+
+.d-none{
+    display: none;
+}
